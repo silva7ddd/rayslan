@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plataforma Educacional</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Plataforma Educacional</h1>
+  </header>
+
+  <main>
+    <aside>
+      <h2>Cursos</h2>
+      <ul id="courseList">
+        <li onclick="loadCourse('html')">HTML Básico</li>
+        <li onclick="loadCourse('css')">CSS Intermediário</li>
+        <li onclick="loadCourse('js')">JavaScript Avançado</li>
+      </ul>
+    </aside>
+
+    <section id="courseContent">
+      <h2>Bem-vindo!</h2>
+      <p>Selecione um curso à esquerda para começar.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Plataforma Educacional</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
